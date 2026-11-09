@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.db
+.env
+.pytest_cache/
+
+# Python 虚拟环境
+.venv/
+venv/
+
+# IDE 配置
+.idea/
+
+# 前端依赖
+node_modules/
+
+# 其他环境配置
+.env.*
+!.env.example
+
+# 其他数据库
+*.sqlite
+*.sqlite3
+
+# 日志和私钥
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 本地审查报告
+review-report.md
